@@ -35,7 +35,39 @@
   "linter": {
     "enabled": true,
     "rules": {
-      "recommended": true
+      "recommended": true,
+      "style": {
+        "useConst": "warn",
+        "noVar": "error",
+        "noParameterProperties": "warn",
+        "noUselessElse": "warn",
+        "useShorthandFunctionType": "warn",
+        "useImportType": "warn"
+      },
+      "correctness": {
+        "noUnusedImports": "warn",
+        "noUnusedVariables": "warn",
+        "noUnusedFunctionParameters": "warn",
+        "noConstantCondition": "warn",
+        "noConstantMathMinMaxClamp": "warn",
+        "noConstructorReturn": "error",
+        "noUnsafeOptionalChaining": "warn"
+      },
+      "complexity": {
+        "noForEach": "warn",
+        "noExtraBooleanCast": "warn",
+        "noUselessCatch": "warn",
+        "noUselessConstructor": "warn",
+        "noUselessLabel": "warn",
+        "noUselessLoneBlockStatements": "warn",
+        "useFlatMap": "warn",
+        "useOptionalChain": "off"
+      },
+      "suspicious": {
+        "noDoubleEquals": "warn",
+        "useAwait": "warn",
+        "noExplicitAny": "off"
+      }
     }
   }
 }
