@@ -28,5 +28,20 @@
   },
   "organizeImports": {
     "enabled": true
+  },
+  "linter": {
+    "rules": {
+      "recommended": true,
+      "style": {
+        "useBlockStatements": "error"
+      },
+      "correctness": {
+        "noUnusedImports": "error",
+        "noUnusedVariables": "error"
+      },
+      "suspicious": {
+        "useAwait": "error"
+      }
+    }
   }
 }
