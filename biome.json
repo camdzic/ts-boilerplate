@@ -12,7 +12,6 @@
   "javascript": {
     "formatter": {
       "enabled": true,
-      "quoteStyle": "single",
       "lineEnding": "lf",
       "semicolons": "always",
       "trailingCommas": "none",
