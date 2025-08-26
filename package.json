@@ -12,8 +12,8 @@
     "biome": "biome check --write --unsafe"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.4",
-    "@types/bun": "^1.2.20"
+    "@biomejs/biome": "^2.2.2",
+    "@types/bun": "^1.2.21"
   },
   "peerDependencies": {
     "typescript": "5.7.3"
