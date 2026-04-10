@@ -63,6 +63,11 @@
           "fix": "safe",
           "options": {}
         },
+        "useNodejsImportProtocol": {
+          "level": "error",
+          "fix": "safe",
+          "options": {}
+        },
         "noUnusedTemplateLiteral": {
           "level": "error",
           "fix": "safe",
